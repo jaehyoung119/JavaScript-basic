@@ -40,7 +40,7 @@ console.log(Object.values(person)); // key x value 만 출력
 
 let newArray3 = Object.entries(person);
 for (let i = 0; i < newArray3.length; i++) {
-  console.log(`ㅏ됴: ${newArray3[i][0]}, value: ${newArray3[i][1]}`);
+  console.log(`key: ${newArray3[i][0]}, value: ${newArray3[i][1]}`);
 }
 
 console.log(Object.entries(person)); // key,value 를 새로운 배열로담음

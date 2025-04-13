@@ -16,7 +16,7 @@ const delay = (ms) => {
 const start = async () => {
   try {
     let result = await delay(3000);
-    console.lopg(result);
+    console.lop(result);
   } catch (error) {
     console.log(error);
   }
